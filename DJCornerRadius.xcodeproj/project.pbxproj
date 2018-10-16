@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8703285FBE2AD334ED347CEE /* libPods-DJCornerRadius.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A031122D3326F3C3D14F /* libPods-DJCornerRadius.a */; };
 		961B73872175E61800144669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73862175E61800144669 /* AppDelegate.m */; };
 		961B738A2175E61800144669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73892175E61800144669 /* ViewController.m */; };
 		961B738D2175E61800144669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B738B2175E61800144669 /* Main.storyboard */; };
 		961B738F2175E61A00144669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961B738E2175E61A00144669 /* Assets.xcassets */; };
 		961B73922175E61A00144669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B73902175E61A00144669 /* LaunchScreen.storyboard */; };
 		961B73952175E61A00144669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73942175E61A00144669 /* main.m */; };
+		961B73A72175EC8200144669 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73A62175EC8200144669 /* UIImage+Alpha.m */; };
+		961B73AA2175ECAA00144669 /* UIImage+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73A92175ECAA00144669 /* UIImage+CornerRadius.m */; };
+		961B73AD2175ECD500144669 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B73AC2175ECD500144669 /* UIImageView+CornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		586AB2ACE6B9EBF6C839E745 /* Pods-DJCornerRadius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCornerRadius.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJCornerRadius/Pods-DJCornerRadius.release.xcconfig"; sourceTree = "<group>"; };
+		7EE1E620E23E4D78EFA3F869 /* Pods-DJCornerRadius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCornerRadius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJCornerRadius/Pods-DJCornerRadius.debug.xcconfig"; sourceTree = "<group>"; };
 		961B73822175E61800144669 /* DJCornerRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCornerRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961B73852175E61800144669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		961B73862175E61800144669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,13 @@
 		961B73912175E61A00144669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961B73932175E61A00144669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961B73942175E61A00144669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		961B73A52175EC8200144669 /* UIImage+Alpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		961B73A62175EC8200144669 /* UIImage+Alpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		961B73A82175ECAA00144669 /* UIImage+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CornerRadius.h"; sourceTree = "<group>"; };
+		961B73A92175ECAA00144669 /* UIImage+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerRadius.m"; sourceTree = "<group>"; };
+		961B73AB2175ECD500144669 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		961B73AC2175ECD500144669 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		FB37A031122D3326F3C3D14F /* libPods-DJCornerRadius.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJCornerRadius.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8703285FBE2AD334ED347CEE /* libPods-DJCornerRadius.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461647904C87EB35947DAEB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EE1E620E23E4D78EFA3F869 /* Pods-DJCornerRadius.debug.xcconfig */,
+				586AB2ACE6B9EBF6C839E745 /* Pods-DJCornerRadius.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CA8C97907846E1D43D88F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A031122D3326F3C3D14F /* libPods-DJCornerRadius.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		961B73792175E61800144669 = {
 			isa = PBXGroup;
 			children = (
 				961B73842175E61800144669 /* DJCornerRadius */,
 				961B73832175E61800144669 /* Products */,
+				461647904C87EB35947DAEB4 /* Pods */,
+				7CA8C97907846E1D43D88F37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +95,7 @@
 				961B73862175E61800144669 /* AppDelegate.m */,
 				961B73882175E61800144669 /* ViewController.h */,
 				961B73892175E61800144669 /* ViewController.m */,
+				961B739B2175EC3800144669 /* Category */,
 				961B738B2175E61800144669 /* Main.storyboard */,
 				961B738E2175E61A00144669 /* Assets.xcassets */,
 				961B73902175E61A00144669 /* LaunchScreen.storyboard */,
@@ -71,6 +105,19 @@
 			path = DJCornerRadius;
 			sourceTree = "<group>";
 		};
+		961B739B2175EC3800144669 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				961B73A52175EC8200144669 /* UIImage+Alpha.h */,
+				961B73A62175EC8200144669 /* UIImage+Alpha.m */,
+				961B73A82175ECAA00144669 /* UIImage+CornerRadius.h */,
+				961B73A92175ECAA00144669 /* UIImage+CornerRadius.m */,
+				961B73AB2175ECD500144669 /* UIImageView+CornerRadius.h */,
+				961B73AC2175ECD500144669 /* UIImageView+CornerRadius.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 961B73982175E61A00144669 /* Build configuration list for PBXNativeTarget "DJCornerRadius" */;
 			buildPhases = (
+				C41B26A17E0AF467F3C39455 /* [CP] Check Pods Manifest.lock */,
 				961B737E2175E61800144669 /* Sources */,
 				961B737F2175E61800144669 /* Frameworks */,
 				961B73802175E61800144669 /* Resources */,
@@ -136,14 +184,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C41B26A17E0AF467F3C39455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJCornerRadius-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		961B737E2175E61800144669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				961B738A2175E61800144669 /* ViewController.m in Sources */,
+				961B73AA2175ECAA00144669 /* UIImage+CornerRadius.m in Sources */,
+				961B73A72175EC8200144669 /* UIImage+Alpha.m in Sources */,
 				961B73952175E61A00144669 /* main.m in Sources */,
 				961B73872175E61800144669 /* AppDelegate.m in Sources */,
+				961B73AD2175ECD500144669 /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 		};
 		961B73992175E61A00144669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE1E620E23E4D78EFA3F869 /* Pods-DJCornerRadius.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +376,7 @@
 		};
 		961B739A2175E61A00144669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586AB2ACE6B9EBF6C839E745 /* Pods-DJCornerRadius.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
